@@ -17,6 +17,6 @@ public class CanIAffordCommand implements TextCommand {
 
     @Override
     public SendMessage answer(String chatId) {
-        return replyMessageService.getTextMessage(chatId, "Укажи свой бюджет в формате: 100-150р\nИ я подскажу, на какие сигареты ты можешь рассчитывать.");
+        return replyMessageService.getTextMessage(chatId, "Укажи свой бюджет (от-до) в формате: 000-000р\nИ я подскажу, на какие сигареты ты можешь рассчитывать.");
     }
 }
