@@ -1,1 +1,1 @@
-web: java -Dserver.port=$PORT $JAVA_OPTS -jar target/CanUAffordToSmoke-1.0-SNAPSHOT.jar
+worker: java $JAVA_OPTS -jar target/CanUAffordToSmoke-1.0-SNAPSHOT.jar
