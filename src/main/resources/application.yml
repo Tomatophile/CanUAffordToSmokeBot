@@ -1,3 +1,5 @@
+server.port: ${PORT:33500}
+
 telegram.bot:
   token: ${BOT_TOKEN}
   username: ${BOT_USERNAME}
