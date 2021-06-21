@@ -1,0 +1,10 @@
+telegram.bot:
+  token: 1878533912:AAHffnywt3Gz2H9MwsDl92iJ2IJ1Wqa-e7Y
+  username: CanYouAffordToSmokeBot
+
+spring.jpa.hibernate.ddl-auto: update
+
+spring.datasource:
+  url: jdbc:postgresql://localhost:5432/cigarettes
+  username: spring
+  password: spring
