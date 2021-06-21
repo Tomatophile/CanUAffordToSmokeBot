@@ -33,7 +33,7 @@ public class UpdateReceiver {
             var message = update.getMessage();
 
             if (message.hasText()) {
-                if (message.getText().matches("\\d+-\\d+р")) {
+                if (message.getText().matches("\\d+-\\d+р?")) {
                     return priceHandler.handlePrice(message);
                 } else if (message.getText().startsWith("/")) {
                     return commandMessageHandler.handleCommand(message);
