@@ -1,10 +1,21 @@
 telegram.bot:
-  token: 1878533912:AAHffnywt3Gz2H9MwsDl92iJ2IJ1Wqa-e7Y
-  username: CanYouAffordToSmokeBot
+  token: ${BOT_TOKEN}
+  username: ${BOT_USERNAME}
 
-spring.jpa.hibernate.ddl-auto: update
+spring.jpa.hibernate.ddl-auto: ${JPA_DDL_AUTO}
 
-spring.datasource:
-  url: jdbc:postgresql://localhost:5432/cigarettes
-  username: spring
-  password: spring
+spring:
+  datasource:
+    url: ${JDBC_DATABASE_URL}
+    username: ${JDBC_DATABASE_USERNAME}
+    password: ${JDBC_DATABASE_PASSWORD}
+#telegram.bot:
+#  token: 1878533912:AAHffnywt3Gz2H9MwsDl92iJ2IJ1Wqa-e7Y
+#  username: CanYouAffordToSmokeBot
+#
+#spring.jpa.hibernate.ddl-auto: update
+#
+#spring.datasource:
+#  url: jdbc:postgresql://localhost:5432/cigarettes
+#  username: spring
+#  password: spring
