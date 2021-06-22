@@ -8,7 +8,7 @@
 И я подскажу, на какие сигареты ты можешь рассчитывать.
 ---
 
-U can write to bot money range and he will show u all cigarettes, u can buy with
+U can write money range to bot, and he will show u all cigarettes u can buy
 
 Also u can save (CTRL+S) html page of https://service.nalog.ru/tabak.do and send it to bot. He will parse it and update prices 
 ('cause site of FTS protected from bots i can't update it automatically)
